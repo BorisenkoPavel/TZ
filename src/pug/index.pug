@@ -1,0 +1,285 @@
+extends templates/main
+
+block variables
+	- var title = 'Главная страница'
+	- var pageClass = 'index-page'
+block content
+	section.section-banner.py-0
+		.swiper-container
+			.swiper-wrapper
+				.swiper-slide
+					.banner.d-flex.align-items-center(style="background: url('img/content/banner1.jpg') center/cover")
+						.container
+							.banner__title.text-white
+								.h1.text-uppercase.b Доставляем грузы
+								.h2 по России и Миру
+								.h3 любым удобным транспортом
+				.swiper-slide
+					.banner.d-flex.align-items-center(style="background: url('img/content/banner2.jpg') center/cover")
+						.container
+							.banner__title.text-white
+								.h1.text-uppercase.b Доставляем грузы
+								.h1 по России и Миру
+								.h3 любым удобным транспортом
+			.swiper-pagination
+
+	section.section-delivery
+		.container
+			h3.text-center Доставляем грузы по России и другим странам
+			.row.delivery-list.no-gutters.text-white
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery1.jpg') no-repeat center/cover")
+						img(src="img/general/icon.png", alt="")
+						.delivery-item__title Автомобильные перевозки
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4.order-1.order-xl-0
+					.delivery-item(style="background: url('img/content/delivery2.jpg') no-repeat center/cover")
+						img(src="img/general/icon2.png", alt="")
+						.delivery-item__title Таможенное оформление
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4.order-2.order-xl-0.m-auto
+					.delivery-item(style="background: url('img/content/delivery1.jpg') no-repeat center/cover")
+						img(src="img/general/icon.png", alt="")
+						.delivery-item__title Автомобильные перевозки
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery2.jpg') no-repeat center/cover")
+						img(src="img/general/icon2.png", alt="")
+						.delivery-item__title Таможенное оформление
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery1.jpg') no-repeat center/cover")
+						img(src="img/general/icon.png", alt="")
+						.delivery-item__title Автомобильные перевозки
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery2.jpg') no-repeat center/cover")
+						img(src="img/general/icon2.png", alt="")
+						.delivery-item__title Таможенное оформление
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery1.jpg') no-repeat center/cover")
+						img(src="img/general/icon.png", alt="")
+						.delivery-item__title Автомобильные перевозки
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery2.jpg') no-repeat center/cover")
+						img(src="img/general/icon2.png", alt="")
+						.delivery-item__title Таможенное оформление
+						a.stretched-link(href="")
+				.col-md-6.col-xl-4
+					.delivery-item(style="background: url('img/content/delivery1.jpg') no-repeat center/cover")
+						img(src="img/general/icon.png", alt="")
+						.delivery-item__title Автомобильные перевозки
+						a.stretched-link(href="")
+	section.section-rout(style="background: url('img/content/rout-bg.jpg') no-repeat center/cover")
+		.container
+			h2.text-center.text-white Маршруты перевозок
+			.rout-list
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Перевозки по
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				.rout-item-container
+					.rout-item
+						img.rout-item__icon(src="img/content/flag.jpg", alt="")
+						.rout-item__title
+							small Международые перевозки в/из
+							.text-big России
+							a.stretched-link(href="")
+				
+	section.pb-0
+		.container.d-flex.d-xl-block.flex-column
+			h3.section-title-underline Транспортная компания Эдельвейс транспорт
+			.img-container.float-xl-right.m-auto.ml-xl-5.order-1.order-xl-0.d-none.d-md-block
+				img.pr-4(src="img/content/sert.jpg", alt="")
+				img(src="img/content/sert.jpg", alt="")
+			p.
+				Транспортно-логистическая компания «Эдельвейс транспорт» занимается организацией 
+				перевозок грузов авиа-, железнодорожным, речным видом транспорта и автотранспортом.
+				Авиаперевозки грузов - основное направление деятельности нашей компании. 
+			p.
+				Это самый быстрый способ доставки груза. Мы предоставляем полный пакет транспортно-
+				экспедиторских услуг: перевозка скоропортящихся, крупногабаритных, опасных, ценных грузов и 
+				грузов, требующих температурного режима.
+			p.
+				Мы работаем на всей территории России, по всем направлениям: Урал, Западная и Восточная 
+				Сибирь, Дальний Восток, Северные и Южные регионы Росcии.
+			.clearfix
+	section.pb-0
+		.container
+			h3.section-title-underline Авиаперевозки по России и СНГ - основное направление деятельности
+			p.
+				Компания «Эдельвейс транспорт» предоставляет транспортно-экспедиционные услуги по доставке, хранению и обработке грузов и товаров. Данный способ 
+				грузоперевозок является наиболее выгодным, при условии необходимости доставки груза на дальние расстояния в максимально сжатые сроки.
+	section.pb-0
+		.container
+			h3.section-title-underline Сотрудничество с нами - это
+			.advantages
+				.advantage-item
+					img.advantage-item__icon(src="img/content/advantage.jpg", alt="")
+					.advantage-item__title Дружелюбный сервис
+				.advantage-item
+					img.advantage-item__icon(src="img/content/advantage.jpg", alt="")
+					.advantage-item__title Оперативное оформление таможенных документов
+				.advantage-item
+					img.advantage-item__icon(src="img/content/advantage.jpg", alt="")
+					.advantage-item__title Своевременная обработка заказов
+				.advantage-item
+					img.advantage-item__icon(src="img/content/advantage.jpg", alt="")
+					.advantage-item__title Четкое соблюдение указанных в договоре сроков
+	
+	section.pb-0
+		.container
+			.bg-grey.p-5.px-0
+				h3.section-title-underline Основные преимущества использования авиации для перевозки грузов:
+				ol.custom-ol
+					li оперативность, что означает соблюдение оговоренных сроков при доставке Ваших товаров;
+					li надежность – наша компания гарантирует сохранность перевозимых грузов;
+					li удобство, под которым подразумевается возможность заказа доставки товаров в любом количестве;
+					li высокий уровень качества обслуживания;
+					li наивысший уровень безопасности.
+		.container.py-4
+			span.
+				Кроме того, что нам не составляет никакого труда справляться со стандартными посылками, мы обладаем большим опытом в доставке негабаритных, 
+				опасных грузов и тех, которые требуют особых условий хранения. Решив воспользоваться нашими услугами, наши клиенты всегда могут выбрать 
+				оптимальный вариант авиаперевозки своих грузов по России, странам СНГ и за рубеж.
+		.container
+			.bg-grey.p-5.px-0
+				h3.section-title-underline Основные преимущества использования авиации для перевозки грузов:
+				ol.custom-ol
+					li оперативность, что означает соблюдение оговоренных сроков при доставке Ваших товаров;
+					li надежность – наша компания гарантирует сохранность перевозимых грузов;
+					li удобство, под которым подразумевается возможность заказа доставки товаров в любом количестве;
+					li высокий уровень качества обслуживания;
+					li наивысший уровень безопасности.
+	section.pb-0
+		.container
+			h3.section-title-underline Сотрудничество с нами - это
+			.advantages.row.text-center
+				.col-md-6.col-xl-3
+					.advantage-item.flex-column
+						img.advantage-item__icon.pb-3(src="img/content/advantage.jpg", alt="")
+						.advantage-item__title Дружелюбный сервис
+				.col-md-6.col-xl-3
+					.advantage-item.flex-column
+						img.advantage-item__icon.pb-3(src="img/content/advantage.jpg", alt="")
+						.advantage-item__title Оперативное оформление таможенных документов
+				.col-md-6.col-xl-3
+					.advantage-item.flex-column
+						img.advantage-item__icon.pb-3(src="img/content/advantage.jpg", alt="")
+						.advantage-item__title Своевременная обработка заказов
+				.col-md-6.col-xl-3
+					.advantage-item.flex-column
+						img.advantage-item__icon.pb-3(src="img/content/advantage.jpg", alt="")
+						.advantage-item__title Четкое соблюдение указанных в договоре сроков
+	section.pb-0
+		.container
+			p.
+				Оформление заказа у службы перевозок компании «ЭйрТрансс» – это, в первую очередь, уверенность в абсолютной сохранности товара, который будет 
+				поставлен в точности с указанными в договоре сроками. Все сотрудники нашей организации постоянно совершенствуют свою работу, чтобы быть в состоянии 
+				выполнить все Ваши пожелания.
+			p.
+				Наша команда менеджеров отличается способностью оперативно принимать важные решения, а профессионализм наших сотрудников находится на высоком 
+				уровне, что является залогом успешного выполнения грузовых перевозок любой степени сложности.
+	section.footer-banner
+		.container
+			.row
+				.col-xl-6.mb-4.mb-xl-0
+					img.footer-banner-item.d-block.m-auto(src="img/content/footer-banner.jpg", alt="")
+				.col-xl-6
+					img.footer-banner-item.d-block.m-auto(src="img/content/footer-banner2.jpg", alt="")

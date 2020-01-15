@@ -1,0 +1,72 @@
+@import start
+
+.banner
+	height: 430px
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: radial-gradient(circle at 16% -12%, rgba(47,47,44, .74) 45%, transparent 45.1%)
+	&__title
+		position: relative
+.delivery-item
+	height: 220px
+	margin: 1px
+	display: flex
+	align-items: center
+	justify-content: center
+	position: relative
+	&>*
+		flex: 0 0
+	img
+		margin-right: 15px
+.delivery-item__title
+	font-size: 1.625rem
+	text-transform: uppercase
+.rout-list
+	display: flex
+	flex-wrap: wrap
+.rout-item__icon
+	padding: 20px
+.rout-item-container
+	flex: 0 0 20%
+.rout-item
+	margin: 10px
+	align-items: center
+	display: flex
+	background-color: #fff
+	position: relative
+.advantages
+	display: flex
+	justify-content: space-between
+.advantage-item__title
+	padding: 0 20px
+	flex: 1 0
+.advantage-item
+	display: flex
+	align-items: center
+
+.custom-ol
+	list-style: none
+	padding: 0
+	li:before 
+		content: counter(li)'.'
+		color: $accent
+		display: inline-block
+		position: absolute
+		left: 0
+	li
+		counter-increment: li
+		padding: 10px 0
+		padding-left: 2em
+		position: relative
+
+.bg-grey
+	background-color: #f7f7f7
+
+
+@import media

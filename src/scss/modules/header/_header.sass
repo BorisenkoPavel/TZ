@@ -1,0 +1,70 @@
+
+header
+	padding-top: 50px
+.icon-link__phone
+	font-size: 1.5rem
+.icon-link__mail
+	font-size: 	1.0625rem
+.icon-link__geo
+	font-size: 1.125rem
+
+.calc-block
+	padding: 10px
+	width: 270px
+	background-color: $accent
+
+.nav-list
+	font-size: 0.8125rem
+	text-transform: uppercase
+	&>li
+		display: flex
+		&>a
+			display: flex
+			align-items: center
+.btn-container
+	width: 190px
+
+.nav
+	position: relative
+	height: 3.75rem
+.nav-list 
+	height: 100%
+	li.active
+		&>a
+			position: relative
+			height: 100%
+			&:before
+				content: ''
+				position: absolute
+				width: 15px
+				height: 15px
+				left: 0
+				right: 0
+				margin: auto
+				bottom: 0
+				border: 15px solid transparent
+				border-bottom: 15px solid #595d59
+		.submenu
+			opacity: 1
+.submenu
+	position: absolute
+	pointer-events: none
+	opacity: 0
+	left: 0
+	top: 100%
+	width: 100%
+	background-color: #595d59
+	z-index: 500
+	padding: 2rem 0!important
+	color: #fff
+	.container
+		column-width: 200px
+		column-count: 3
+		column-gap: 30px
+		a
+			display: inline-block
+			text-decoration: underline
+			font-size: 0.9375rem
+			text-transform: capitalize
+			padding: 7px 0
+			margin-bottom: 0

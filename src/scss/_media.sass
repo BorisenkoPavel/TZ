@@ -1,0 +1,102 @@
+@import "vars"
+
+/*==========  Internet explorer  ==========*/
+
+@media all and (-ms-high-contrast:none)
+
+
+/*==========  FireFox  ==========*/
+
+@-moz-document url-prefix()
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1400px
++media-breakpoint-down(xl)
+
+// ≥1200px
++media-breakpoint-down(lg)
+  section
+    // padding: calc(2rem + 2.5vw) 0
+  .header-top
+    flex-wrap: wrap
+
+  .banner
+    &:before
+      background: radial-gradient(circle at 16% -12%, rgba(47,47,44, .74) 65%, transparent 65.1%)
+  
+  .rout-item-container
+    flex: 1 1 33.33333%
+
+  .advantages
+    flex-wrap: wrap
+  .advantage-item
+    flex: 1 1 50%
+    margin-bottom: 1.5rem
+  .btn-container
+    display: flex
+    width: auto
+    &>*
+      flex: 1 0
+  .calc-block-container
+    flex: 1 0
+  .calc-block
+    width: auto
+  .calc
+    width: 40px
+  .contacts-container
+    flex: 1 0
+    justify-content: flex-end
+    margin-left: 6.25rem
+// ≥992px
++media-breakpoint-down(md)
+  .banner
+    &:before
+      background: radial-gradient(circle at 16% -12%, rgba(47,47,44, .74) 65%, transparent 65.1%)
+  .contacts-container
+    flex: 1 0
+    justify-content: flex-end
+    margin-left: 1.25rem
+
+// ≥768px
++media-breakpoint-down(sm)
+  .header-top>*
+    flex: 1 1 100%
+    margin: auto
+    margin-bottom: 1rem
+  .logo
+    img
+      margin: auto!important
+      display: block
+  .banner
+    &:before
+      background: radial-gradient(circle at 16% 20%, rgba(47,47,44, .74) 80%, transparent 80.1%)
+  .footer-banner img
+    width: 100%
+  footer
+    text-align: center
+// ≥576px
++media-breakpoint-down(xs)
+  .btn-container
+    flex-direction: column
+    align-items: center
+  .contacts-container
+    align-items: center
+  .delivery-item__title
+    font-size: 1.375rem
+  .rout-item-container
+    flex: 1 1 100%
+/*==========  mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+  
+// ≤1200px
++media-breakpoint-up(xl)
